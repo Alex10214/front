@@ -1,0 +1,86 @@
+.main {
+  height: 100vh;
+  display: flex;
+  background-color: lightgray;
+
+  .left-side {
+    margin: 10px 0 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 15%;
+
+    .btn-container{
+      border: 1px solid black;
+      height: 4%;
+    }
+
+    .subAccount-container{
+      border: 1px solid black;
+      height: 73%;
+    }
+  }
+
+    // flex: 100
+  .right-side {
+    margin: 10px 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+
+      .tabs-container {
+        flex: 3;
+        border: 1px solid black;
+      }
+      .ticker-name-container {
+        width: 20%;
+        flex: 2;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      }
+
+      .ticker-chart-container {
+        flex: 70;
+        border: 1px solid black;
+      }
+
+
+      .timeframe-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+        flex: 2;
+        border: 1px solid black;
+        border-top: none;
+      }
+
+      .statistics-container {
+        flex: 3;
+        border: 1px solid black;
+      }
+
+      .strategy-chart-container {
+        flex: 20;
+        border: 1px solid black;
+        border-top: none;
+
+      }
+  }
+
+  .horizontal-spacer {
+    height: 10px;
+  }
+
+  .vertical-spacer {
+    width: 10px;
+  }
+
+  .little-horizontal-spacer {
+    height: 5px;
+  }
+
+}
